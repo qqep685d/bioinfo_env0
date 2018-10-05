@@ -1,0 +1,16 @@
+name: lecture-env
+channels:
+    - conda-forge
+    - bioconda
+dependencies:
+    - python=3.6
+    - pip:
+        - numpy
+        - scipy
+        - pandas
+        - matplotlib
+        - seaborn
+        - Biopython
+    - samtools
+    - bwa
+    - blast
