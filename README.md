@@ -23,3 +23,5 @@
 2. 右上の方にある「Upload」
 3. ファイル(.ipynb)を選択する
 4. アップロードしたファイルを開く
+
+[link](https://mybinder.org/v2/gh/qqep685d/bioinfo_env0.git/master?filepath=index.ipynb){:target="_blank"}
