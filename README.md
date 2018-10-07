@@ -1,7 +1,7 @@
 # Jupyter Notebook クラウド解析環境 on Binder (beta)
 
 ## 使い方
-<a href="https://mybinder.org/v2/gh/qqep685d/bioinfo_env0.git/master?filepath=index.ipynb" target="_blank"><img src="https://mybinder.org/badge.svg" alt="mybinder"></a>
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/qqep685d/bioinfo_env0.git/master?filepath=index.ipynb)
 
 1. 上のボタンをクリック ＆ しばらく待つ　
 2. ノートブックファイル（.ipynb）を開く
@@ -24,5 +24,3 @@
 2. 右上の方にある「Upload」
 3. ファイル(.ipynb)を選択する
 4. アップロードしたファイルを開く
-
-<a href="https://www.google.co.jp/" target="_blank"><img src="https://mybinder.org/badge.svg" alt="mybinder"></a>
