@@ -1,0 +1,1 @@
+wget -q -O notebook/intro_jupyter_hw.ipynb "https://raw.githubusercontent.com/CropEvol/lecture/develop_ohta/textbook_2018/intro_jupyter_hw.ipynb"
