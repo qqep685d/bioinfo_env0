@@ -1,2 +1,2 @@
-wget -q -O notebook/intro_jupyter.ipynb    "https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018/intro_jupyter.ipynb"
-wget -q -O notebook/intro_jupyter_hw.ipynb "https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018/intro_jupyter_hw.ipynb"
+wget -q -O notebook/intro_jupyter.ipynb    "https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018/02_intro_jupyter.ipynb"
+wget -q -O notebook/intro_jupyter_hw.ipynb "https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018/02_intro_jupyter_hw.ipynb"
