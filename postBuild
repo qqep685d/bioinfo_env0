@@ -1,2 +1,8 @@
 wget -q -O notebook/02_intro_jupyter.ipynb    "https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018/02_intro_jupyter.ipynb"
 wget -q -O notebook/02_intro_jupyter_hw.ipynb "https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018/02_intro_jupyter_hw.ipynb"
+wget -q -O notebook/02_intro_jupyter_hw_ans.ipynb "https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018/02_intro_jupyter_hw_ans.ipynb"
+
+wget -q -O notebook/03_python_examples.ipynb    "https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018/03_japanese/2_python_examples.ipynb"
+wget -q -O notebook/03_python_exercises.ipynb   "https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018/03_japanese/3_python_exercises.ipynb"
+wget -q -O notebook/03_python_examples_en.ipynb    "https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018/03_english/2_python_examples.ipynb"
+wget -q -O notebook/03_python_exercises_en.ipynb   "https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018/03_english/3_python_exercises.ipynb"
