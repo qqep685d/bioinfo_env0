@@ -1,8 +1,22 @@
-wget -q -O notebook/02_intro_jupyter.ipynb    "https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018/02_intro_jupyter.ipynb"
-wget -q -O notebook/02_intro_jupyter_hw.ipynb "https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018/02_intro_jupyter_hw.ipynb"
-wget -q -O notebook/02_intro_jupyter_hw_ans.ipynb "https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018/02_intro_jupyter_hw_ans.ipynb"
+NOTEBOOK_DIR="notebook"
+REMOTE_DIR="https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018"
 
-wget -q -O notebook/03_japanese/2_python_examples.ipynb    "https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018/03_japanese/2_python_examples.ipynb"
-wget -q -O notebook/03_japanese/3_python_exercises.ipynb   "https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018/03_japanese/3_python_exercises.ipynb"
-wget -q -O notebook/03_english/2_python_examples.ipynb    "https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018/03_english/2_python_examples.ipynb"
-wget -q -O notebook/03_english/3_python_exercises.ipynb   "https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018/03_english/3_python_exercises.ipynb"
+# 02
+file0201="02_intro_jupyter.ipynb"
+file0202="02_intro_jupyter_hw.ipynb"
+file0203="02_intro_jupyter_hw_ans.ipynb"
+wget -q -O ${NOTEBOOK_DIR}/${file0201} "${REMOTE_DIR}/${file0201}"
+wget -q -O ${NOTEBOOK_DIR}/${file0202} "${REMOTE_DIR}/${file0202}"
+wget -q -O ${NOTEBOOK_DIR}/${file0203} "${REMOTE_DIR}/${file0203}"
+
+# 03
+file0301="03_japanese/2_python_examples.ipynb"
+file0302="03_english/2_python_examples.ipynb"
+file0303="03_japanese/3_python_exercises.ipynb"
+file0304="03_english/3_python_exercises.ipynb"
+mkdir -p ${NOTEBOOK_DIR}/03_japanese
+mkdir -p ${NOTEBOOK_DIR}/03_english
+wget -q -O NOTEBOOK_DIR/${file0301} "${REMOTE_DIR}/${file0301}"
+wget -q -O NOTEBOOK_DIR/${file0302} "${REMOTE_DIR}/${file0302}"
+wget -q -O NOTEBOOK_DIR/${file0303} "${REMOTE_DIR}/${file0303}"
+wget -q -O NOTEBOOK_DIR/${file0304} "${REMOTE_DIR}/${file0304}"
