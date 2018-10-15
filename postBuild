@@ -16,7 +16,7 @@ file0303="03_japanese/3_python_exercises.ipynb"
 file0304="03_english/3_python_exercises.ipynb"
 mkdir -p ${NOTEBOOK_DIR}/03_japanese
 mkdir -p ${NOTEBOOK_DIR}/03_english
-wget -q -O NOTEBOOK_DIR/${file0301} "${REMOTE_DIR}/${file0301}"
-wget -q -O NOTEBOOK_DIR/${file0302} "${REMOTE_DIR}/${file0302}"
-wget -q -O NOTEBOOK_DIR/${file0303} "${REMOTE_DIR}/${file0303}"
-wget -q -O NOTEBOOK_DIR/${file0304} "${REMOTE_DIR}/${file0304}"
+wget -q -O ${NOTEBOOK_DIR}/${file0301} "${REMOTE_DIR}/${file0301}"
+wget -q -O ${NOTEBOOK_DIR}/${file0302} "${REMOTE_DIR}/${file0302}"
+wget -q -O ${NOTEBOOK_DIR}/${file0303} "${REMOTE_DIR}/${file0303}"
+wget -q -O ${NOTEBOOK_DIR}/${file0304} "${REMOTE_DIR}/${file0304}"
