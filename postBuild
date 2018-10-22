@@ -20,3 +20,9 @@ wget -q -O ${NOTEBOOK_DIR}/${file0301} "${REMOTE_DIR}/${file0301}"
 wget -q -O ${NOTEBOOK_DIR}/${file0302} "${REMOTE_DIR}/${file0302}"
 wget -q -O ${NOTEBOOK_DIR}/${file0303} "${REMOTE_DIR}/${file0303}"
 wget -q -O ${NOTEBOOK_DIR}/${file0304} "${REMOTE_DIR}/${file0304}"
+
+# 04
+file0401="03_japanese/4_python_exercises.ipynb"
+file0402="03_english/4_python_exercises.ipynb"
+wget -q -O ${NOTEBOOK_DIR}/${file0401} "${REMOTE_DIR}/${file0401}"
+wget -q -O ${NOTEBOOK_DIR}/${file0402} "${REMOTE_DIR}/${file0402}"
