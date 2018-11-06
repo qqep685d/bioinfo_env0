@@ -2,9 +2,10 @@ NOTEBOOK_DIR="notebook"
 REMOTE_DIR="https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018"
 
 # 02
-file0201="02_intro_jupyter.ipynb"
-file0202="02_intro_jupyter_hw.ipynb"
-file0203="02_intro_jupyter_hw_ans.ipynb"
+file0201="02_setup/02_intro_jupyter.ipynb"
+file0202="02_setup/02_intro_jupyter_hw.ipynb"
+file0203="02_setup/02_intro_jupyter_hw_ans.ipynb"
+mkdir -p ${NOTEBOOK_DIR}/02_setup
 wget -q -O ${NOTEBOOK_DIR}/${file0201} "${REMOTE_DIR}/${file0201}"
 wget -q -O ${NOTEBOOK_DIR}/${file0202} "${REMOTE_DIR}/${file0202}"
 wget -q -O ${NOTEBOOK_DIR}/${file0203} "${REMOTE_DIR}/${file0203}"
@@ -44,3 +45,14 @@ wget -q -O ${NOTEBOOK_DIR}/${file0501} "${REMOTE_DIR}/${file0501}"
 wget -q -O ${NOTEBOOK_DIR}/${file0502} "${REMOTE_DIR}/${file0502}"
 wget -q -O ${NOTEBOOK_DIR}/${file0503} "${REMOTE_DIR}/${file0503}"
 wget -q -O ${NOTEBOOK_DIR}/${file0504} "${REMOTE_DIR}/${file0504}"
+
+# 06
+file0601="06_large_data_analysis/01_large_data_analysis_ja.ipynb"
+file0602="06_large_data_analysis/01_large_data_analysis_en.ipynb"
+file0603="06_large_data_analysis/01_large_data_analysis_hw_ja.ipynb"
+file0604="06_large_data_analysis/01_large_data_analysis_hw_en.ipynb"
+mkdir -p ${NOTEBOOK_DIR}/06_large_data_analysis
+wget -q -O ${NOTEBOOK_DIR}/${file0601} "${REMOTE_DIR}/${file0601}"
+wget -q -O ${NOTEBOOK_DIR}/${file0602} "${REMOTE_DIR}/${file0602}"
+wget -q -O ${NOTEBOOK_DIR}/${file0603} "${REMOTE_DIR}/${file0603}"
+wget -q -O ${NOTEBOOK_DIR}/${file0604} "${REMOTE_DIR}/${file0604}"
