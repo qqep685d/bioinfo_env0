@@ -1,0 +1,77 @@
+NOTEBOOK_DIR="notebook"
+REMOTE_DIR="https://raw.githubusercontent.com/CropEvol/lecture/master/textbook_2018"
+
+# 02
+file0201="02_setup/02_intro_jupyter.ipynb"
+file0202="02_setup/02_intro_jupyter_hw.ipynb"
+file0203="02_setup/02_intro_jupyter_hw_ans.ipynb"
+mkdir -p ${NOTEBOOK_DIR}/02_setup
+wget -q -O ${NOTEBOOK_DIR}/${file0201} "${REMOTE_DIR}/${file0201}"
+wget -q -O ${NOTEBOOK_DIR}/${file0202} "${REMOTE_DIR}/${file0202}"
+wget -q -O ${NOTEBOOK_DIR}/${file0203} "${REMOTE_DIR}/${file0203}"
+
+# 03
+file0301="03_japanese/2_python_examples.ipynb"
+file0302="03_english/2_python_examples.ipynb"
+file0303="03_japanese/3_python_exercises.ipynb"
+file0304="03_english/3_python_exercises.ipynb"
+file0305="03_japanese/3.1_python_answers.ipynb"
+file0306="03_english/3.1_python_answers.ipynb"
+mkdir -p ${NOTEBOOK_DIR}/03_japanese
+mkdir -p ${NOTEBOOK_DIR}/03_english
+wget -q -O ${NOTEBOOK_DIR}/${file0301} "${REMOTE_DIR}/${file0301}"
+wget -q -O ${NOTEBOOK_DIR}/${file0302} "${REMOTE_DIR}/${file0302}"
+wget -q -O ${NOTEBOOK_DIR}/${file0303} "${REMOTE_DIR}/${file0303}"
+wget -q -O ${NOTEBOOK_DIR}/${file0304} "${REMOTE_DIR}/${file0304}"
+wget -q -O ${NOTEBOOK_DIR}/${file0305} "${REMOTE_DIR}/${file0305}"
+wget -q -O ${NOTEBOOK_DIR}/${file0306} "${REMOTE_DIR}/${file0306}"
+
+# 04
+file0401="03_japanese/4_python_exercises.ipynb"
+file0402="03_english/4_python_exercises.ipynb"
+file0403="03_japanese/4.1_python_answers.ipynb"
+file0404="03_english/4.1_python_answers.ipynb"
+wget -q -O ${NOTEBOOK_DIR}/${file0401} "${REMOTE_DIR}/${file0401}"
+wget -q -O ${NOTEBOOK_DIR}/${file0402} "${REMOTE_DIR}/${file0402}"
+wget -q -O ${NOTEBOOK_DIR}/${file0403} "${REMOTE_DIR}/${file0403}"
+wget -q -O ${NOTEBOOK_DIR}/${file0404} "${REMOTE_DIR}/${file0404}"
+
+# 05
+file0501="03_japanese/6_python_practice.ipynb"
+file0502="03_english/6_python_practice.ipynb"
+file0503="03_japanese/7_genome_scan.ipynb"
+file0504="03_english/7_genome_scan.ipynb"
+wget -q -O ${NOTEBOOK_DIR}/${file0501} "${REMOTE_DIR}/${file0501}"
+wget -q -O ${NOTEBOOK_DIR}/${file0502} "${REMOTE_DIR}/${file0502}"
+wget -q -O ${NOTEBOOK_DIR}/${file0503} "${REMOTE_DIR}/${file0503}"
+wget -q -O ${NOTEBOOK_DIR}/${file0504} "${REMOTE_DIR}/${file0504}"
+
+# 06
+file0601="06_large_data_analysis/01_large_data_analysis_ja.ipynb"
+file0602="06_large_data_analysis/01_large_data_analysis_en.ipynb"
+file0603="06_large_data_analysis/01_large_data_analysis_hw_ja.ipynb"
+file0604="06_large_data_analysis/01_large_data_analysis_hw_en.ipynb"
+file0605="06_large_data_analysis/01_large_data_analysis_hw_ans_ja.ipynb"
+file0606="06_large_data_analysis/01_large_data_analysis_hw_ans_en.ipynb"
+mkdir -p ${NOTEBOOK_DIR}/06_large_data_analysis
+wget -q -O ${NOTEBOOK_DIR}/${file0601} "${REMOTE_DIR}/${file0601}"
+wget -q -O ${NOTEBOOK_DIR}/${file0602} "${REMOTE_DIR}/${file0602}"
+wget -q -O ${NOTEBOOK_DIR}/${file0603} "${REMOTE_DIR}/${file0603}"
+wget -q -O ${NOTEBOOK_DIR}/${file0604} "${REMOTE_DIR}/${file0604}"
+wget -q -O ${NOTEBOOK_DIR}/${file0605} "${REMOTE_DIR}/${file0605}"
+wget -q -O ${NOTEBOOK_DIR}/${file0606} "${REMOTE_DIR}/${file0606}"
+
+# 07
+file0701="07_large_data_analysis/02_large_data_analysis_ja.ipynb"
+file0702="07_large_data_analysis/02_large_data_analysis_en.ipynb"
+file0703="07_large_data_analysis/02_large_data_analysis_ja_complete_version.ipynb"
+file0704="07_large_data_analysis/02_large_data_analysis_en_complete_version.ipynb"
+file0705="07_large_data_analysis/02_large_data_analysis_hw_ja.ipynb"
+file0706="07_large_data_analysis/02_large_data_analysis_hw_en.ipynb"
+mkdir -p ${NOTEBOOK_DIR}/07_large_data_analysis
+wget -q -O ${NOTEBOOK_DIR}/${file0701} "${REMOTE_DIR}/${file0701}"
+wget -q -O ${NOTEBOOK_DIR}/${file0702} "${REMOTE_DIR}/${file0702}"
+wget -q -O ${NOTEBOOK_DIR}/${file0703} "${REMOTE_DIR}/${file0703}"
+wget -q -O ${NOTEBOOK_DIR}/${file0704} "${REMOTE_DIR}/${file0704}"
+wget -q -O ${NOTEBOOK_DIR}/${file0705} "${REMOTE_DIR}/${file0705}"
+wget -q -O ${NOTEBOOK_DIR}/${file0706} "${REMOTE_DIR}/${file0706}"
