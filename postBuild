@@ -68,6 +68,7 @@ file0703="07_large_data_analysis/02_large_data_analysis_ja_complete_version.ipyn
 file0704="07_large_data_analysis/02_large_data_analysis_en_complete_version.ipynb"
 file0705="07_large_data_analysis/02_large_data_analysis_hw_ja.ipynb"
 file0706="07_large_data_analysis/02_large_data_analysis_hw_en.ipynb"
+file0707="07_large_data_analysis/02_large_data_analysis_hw_ans_ja.ipynb"
 mkdir -p "${NOTEBOOK_DIR}/07_large_data_analysis"
 wget -q -O ${NOTEBOOK_DIR}/${file0701} "${REMOTE_DIR}/${file0701}"
 wget -q -O ${NOTEBOOK_DIR}/${file0702} "${REMOTE_DIR}/${file0702}"
@@ -75,6 +76,7 @@ wget -q -O ${NOTEBOOK_DIR}/${file0703} "${REMOTE_DIR}/${file0703}"
 wget -q -O ${NOTEBOOK_DIR}/${file0704} "${REMOTE_DIR}/${file0704}"
 wget -q -O ${NOTEBOOK_DIR}/${file0705} "${REMOTE_DIR}/${file0705}"
 wget -q -O ${NOTEBOOK_DIR}/${file0706} "${REMOTE_DIR}/${file0706}"
+wget -q -O ${NOTEBOOK_DIR}/${file0707} "${REMOTE_DIR}/${file0707}"
 
 # 08
 file0801="08_large_data_analysis/03_large_data_analysis_ja.ipynb"
