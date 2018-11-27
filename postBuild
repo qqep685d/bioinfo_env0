@@ -94,4 +94,5 @@ wget -q -O ${NOTEBOOK_DIR}/${file0805} "${REMOTE_DIR}/${file0805}"
 wget -q -O ${NOTEBOOK_DIR}/${file0806} "${REMOTE_DIR}/${file0806}"
 
 # 09
+mkdir -p "${NOTEBOOK_DIR}/09_statistics"
 wget -r -q -O ${NOTEBOOK_DIR}/09_statistics "${REMOTE_DIR}/09_statistics"
