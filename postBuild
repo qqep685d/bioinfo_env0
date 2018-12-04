@@ -134,3 +134,6 @@ wget -q -O ${NOTEBOOK_DIR}/${file1004} "${REMOTE_DIR}/${file1004}"
 wget -q -O ${NOTEBOOK_DIR}/${dir10}/gene_data.csv          "${REMOTE_DIR}/${dir10}/gene_data.csv"
 wget -q -O ${NOTEBOOK_DIR}/${dir10}/hw_gene_data1.csv      "${REMOTE_DIR}/${dir10}/hw_gene_data1.csv"
 wget -q -O ${NOTEBOOK_DIR}/${dir10}/hw_gene_data2.csv      "${REMOTE_DIR}/${dir10}/hw_gene_data2.csv"
+
+# graphviz
+conda install -y graphviz
