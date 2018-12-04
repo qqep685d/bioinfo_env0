@@ -1,0 +1,13 @@
+name: lecture-env
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - graphviz
+  - pip:
+    - numpy
+    - scipy
+    - pandas
+    - matplotlib
+    - scikit-learn
+    - statsmodels
