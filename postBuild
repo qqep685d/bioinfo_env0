@@ -143,6 +143,3 @@ mkdir -p "${NOTEBOOK_DIR}/11_statistics/data"
 wget -q -O ${NOTEBOOK_DIR}/${file1101} "${REMOTE_DIR}/${file1101}"
 wget -q -O ${NOTEBOOK_DIR}/${file1102} "${REMOTE_DIR}/${file1102}"
 wget -q -O ${NOTEBOOK_DIR}/${dir11}/data.csv          "${REMOTE_DIR}/${dir11}/data.csv"
-
-# graphviz
-conda install -y graphviz
